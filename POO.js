@@ -1,4 +1,5 @@
 
+
 class Person {
     constructor(nombre, edad, ojos, pelo, altura, peso) {
       this.nombre = nombre;
@@ -39,8 +40,7 @@ class Person {
       }
     }
   }
-  // Crea una nueva instancia de la clase Person
-let Persona1 = new Person("Rubén", 19, "verdes", "marrón", 1.78, 70);
+  
 
   
   console.log(Persona1.nombre);
@@ -54,5 +54,4 @@ let Persona1 = new Person("Rubén", 19, "verdes", "marrón", 1.78, 70);
   // Llama al método CalcularIMC sin argumentos
   Persona1.CalcularIMC();
   
-
 
