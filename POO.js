@@ -1,11 +1,12 @@
 class Person {
-    constructor(nombre, yearOfBirth, ojos, pelo, altura, peso) {
+    constructor(nombre, yearOfBirth, ojos, pelo, altura, peso, hobbies) {
       this.nombre = nombre;
       this.yearOfBirth = yearOfBirth;
       this.ojos = ojos;
       this.pelo = pelo;
       this.altura = altura;
       this.peso = peso;
+      this.hobbies = hobbies;
     }
   
     // Método que calcula la edad basado en el año de nacimiento
@@ -50,8 +51,26 @@ class Person {
         for (let propiedad in this) {
           console.log(`${propiedad} - ${this[propiedad]}`);
         }
+}
+
+// Metodo de array de Hobbyes
+
+printHobbies(){
+    let hobby = ["nadar" , "correr" , "tennis"];
+    
+    for(let i =0 ; i < hobby.length ; i++){
+
+        console.log(hobby[i]);
+    }
+
 
 }
+
+
+
+
+
+
 
   }
   
@@ -74,3 +93,7 @@ class Person {
   //llamar al metodo prinAll
 
 Persona1.printALL();
+
+//llamar al metodo printHobbyes
+
+Persona1.printHobbies();
