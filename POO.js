@@ -120,4 +120,5 @@ console.log(Persona1.mayor()); // Determina si es mayor de edad
 // Llamar al método CalcularIMC
 Persona1.CalcularIMC(); // Calcula y muestra el IMC en la consola
 
+//otro archivo
 
